@@ -24,7 +24,7 @@ dotenv.config()
 const app = express()
 
 app.use(cors({
-    origin:["http://localhost:5173", "http://localhost:5174"],
+    origin:["http://localhost:5173", "https://pos-system-nine-lemon.vercel.app/"],
     credentials:true
 }))
 
